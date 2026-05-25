@@ -1,0 +1,33 @@
+Référence,Composant,Description,Quantité,Prix unitaire (€),Prix total (€),Fournisseur,Référence fournisseur,Remarques
+ELEC-001,Raspberry Pi Pico,Microcontrôleur principal 133MHz 264KB RAM,1,4.50,4.50,RPi Foundation,SC0915,Version standard avec headers
+ELEC-002,MAX7219,Contrôleur LED 8-digit SPI,1,2.30,2.30,Adafruit,1733,Module breakout avec socket
+ELEC-003,BL28-3005S,Bargraph 28 segments LED,1,8.50,8.50,AliExpress,3284729834,4 digits × 7 segments
+ELEC-004,WS2812 Ring 21 LEDs,Anneau LED adressable 21 pixels,4,6.00,24.00,Adafruit,2853,Format 68mm diamètre
+ELEC-005,WS2812 Strip 15 LEDs,Strip LED pour cellule puissance,1,4.50,4.50,Adafruit,1138,5m strip - couper 15 LEDs
+ELEC-006,MAX98357A,Amplificateur audio I2S stéréo,1,3.20,3.20,Adafruit,3006,Module avec sortie 3W
+ELEC-007,Haut-parleur 4Ω 3W,Haut-parleur pour audio,1,2.80,2.80,Digikey,GF0401M,4Ω 3W 40mm
+ELEC-008,Interrupteur Principal,Interrupteur ON/OFF style militaire,1,5.50,5.50,Amazon,B07XYZ,Latching (à verrouillage) recommandé pour ON/OFF
+ELEC-009,Gâchette,Bouton poussoir momentané,1,1.20,1.20,Adafruit,1390,Heavy duty 16mm
+ELEC-010,Bouton Venting,Bouton rouge emergency,1,2.50,2.50,Adafruit,1440,16mm rouge lumineux
+ELEC-011,Sélecteur Mode,Switch multi-positions,1,3.80,3.80,Digikey,EG1218,3 positions
+ELEC-012,Arrêt Urgence,Bouton emergency stop,1,4.20,4.20,Amazon,B08ABC,22mm rouge twist release
+ELEC-013,Potentiomètre,Contrôle intensité 10kΩ,1,1.50,1.50,Adafruit,356,Linear taper B10K
+ELEC-014,Connecteurs JST-PH,Connecteurs 2-pin pour LEDs,10,0.25,2.50,Adafruit,872,Démontage rapide
+ELEC-015,Connecteurs JST-XH,Connecteurs 3-4 pins audio,5,0.35,1.75,Adafruit,2880,Haute qualité
+ELEC-016,Câble 22AWG,Fil de connexion multicore (mètre),5,0.80,4.00,Amazon,Wire22,Prévoir rouge/noir (quantité = mètres)
+ELEC-017,Condensateur 100nF,Découplage pour MAX7219,2,0.15,0.30,Digikey,CCR05,Céramique 50V
+ELEC-018,Condensateur 100µF,Filtrage alimentation,2,0.25,0.50,Digikey,EEU-FC,Electrolytic 16V
+ELEC-019,Résistance 330Ω,Résistance série pour données (MAX7219 DIN / WS2812 DATA),1,0.10,0.10,Digikey,CFR-25,1/4W 5%
+ELEC-020,Résistance 10kΩ,Résistances pour entrées (pull-up/pull-down boutons),5,0.10,0.50,Digikey,CFR-25,1/4W 5%
+ELEC-021,Breadboard,Plaque d'essai 830 points,1,4.50,4.50,Adafruit,239,Qualité professionnelle
+ELEC-022,Alimentation 5V 5A,Bloc d'alimentation stabilisé,1,25.00,25.00,Amazon,PS5V5A,5A minimum (recommandé 8-10A selon luminosité)
+ELEC-023,Fusible 5A,Protection contre surcharges,1,0.80,0.80,Digikey,0454015,Resettable PTC
+ELEC-024,Boitier Projet,Boîtier étanche IP65,1,15.00,15.00,Amazon,Box155,155×90×60mm
+ELEC-025,Vis M3×10,Fixation composants,20,0.05,1.00,Amazon,VisM3,Acier inox
+ELEC-026,Câbles SPI Blindés,Câbles torsadés pour SPI (mètre),1,1.20,1.20,Amazon,SPICable,Quantité = mètres; 3 conducteurs (SCK/MOSI/CS)
+ELEC-027,Heat Sink,Dissipateur thermique Pico,1,2.50,2.50,Adafruit,3036,Aluminium avec adhésif
+ELEC-028,LED Témoin,LED indicateur status,3,0.20,0.60,Digikey,WP7113,5mm rouge/vert/jaune
+ELEC-029,Resistor Network,Réseau résistif pour LEDs,1,0.80,0.80,Digikey,4608X,8 résistances 220Ω
+ELEC-030,Pin Headers,Connecteurs mâles 2.54mm,10,0.15,1.50,Amazon,Headers,40 pins droits
+,,TOTAL MATÉRIEL,,,114.45,,,
+,,TOTAL PROJET (estimé),,,150.00,,,Avec marge et frais de port
