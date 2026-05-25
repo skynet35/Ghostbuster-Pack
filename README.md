@@ -53,6 +53,7 @@ Ce projet est une réplique ultra-réaliste du Proton Pack de Ghostbusters, util
 
 ```
 Ghostbusters2/
+├── main.py                           # Fichier principal
 ├── ultimate_max7219_proton_pack.py   # Système principal complet
 ├── wand_bargraph_max7219.py          # Contrôleur MAX7219
 ├── wand_effects_bargraph.py          # Effets visuels avancés
@@ -60,7 +61,6 @@ Ghostbusters2/
 ├── audio_system.py                   # Audio I2S avec MAX98357A
 ├── control_system.py                 # Gestion des contrôles
 ├── power_management.py               # Gestion intelligente puissance
-├── advanced_effects.py               # Effets visuels professionnels
 ├── proton_pack_config.yaml           # Configuration
 ├── README_MAX7219.md                 # Doc MAX7219 détaillée
 └── README.md                         # Ce fichier
