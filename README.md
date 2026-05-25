@@ -74,16 +74,33 @@ Ghostbusters2/
 3. Connecter via Thonny (port série COM) ou VS Code
 
 #### 2. Installation des fichiers
-1. Copier ces fichiers sur le Pico (racine `/`) :
-   - `main.py` (lanceur auto au boot, ou programme principal renommé)
-   - `audio_system.py`
-   - `cyclotron_4x21.py`
-   - `control_system.py`
-   - `power_management.py`
-   - `wand_bargraph_max7219.py`
-   - `wand_effects_bargraph.py`
-2. Le programme principal recommandé est `ultimate_max7219_proton_pack.py` (vous pouvez le renommer en `main.py` pour l’auto-start).
-3. Les fichiers `.md/.sch/.pdf/.png/.jpg` ne sont pas nécessaires sur le Pico.
+Deux façons de faire :
+
+**Option A (simple) — renommer le programme principal en `main.py`**
+- Copier sur le Pico (racine `/`) :
+  - `main.py` (c’est `ultimate_max7219_proton_pack.py` renommé)
+  - `audio_system.py`
+  - `cyclotron_4x21.py`
+  - `control_system.py`
+  - `power_management.py`
+  - `wand_bargraph_max7219.py`
+  - `wand_effects_bargraph.py`
+
+**Option B (propre) — garder le programme principal + un petit `main.py` lanceur**
+- Copier sur le Pico (racine `/`) :
+  - `main.py` (petit lanceur qui exécute le programme)
+  - `ultimate_max7219_proton_pack.py` (programme principal)
+  - `audio_system.py`
+  - `cyclotron_4x21.py`
+  - `control_system.py`
+  - `power_management.py`
+  - `wand_bargraph_max7219.py`
+  - `wand_effects_bargraph.py`
+
+Les fichiers `.md/.sch/.pdf/.png/.jpg` ne sont pas nécessaires sur le Pico.
+
+**`proton_pack_config.yaml`**
+- Optionnel : le code actuel ne le charge pas automatiquement. Tu peux le garder dans le repo GitHub, mais il n’est pas requis sur le Pico tant que tu ne l’utilises pas dans le code.
 
 #### 3. Cablage Détaillé
 
